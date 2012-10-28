@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<checkout_onepage_index>
+		<reference name="head">
+			<action method="addJs"><script>elgentos/elgentos_openkvk.js</script></action>
+		</reference>
+		<reference name="checkout.onepage.billing">
+			<action method="setTemplate"><template>elgentos/openkvk.phtml</template></action>
+		</reference>
+	</checkout_onepage_index>
+</layout>
